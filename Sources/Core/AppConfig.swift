@@ -2,7 +2,7 @@ import Foundation
 
 enum AppConfig {
     static let website = URL(string: "https://autosaleumar.com")!
-    static let appAPI = URL(string: "https://app-api.autosaleumar.com")!
+    static let appAPI = URL(string: "https://api.autosaleumar.com")!
 
     static let phone = "+998771155553"
     static let phoneDisplay = "+998 77 115 55 53"

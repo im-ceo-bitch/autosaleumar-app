@@ -10,7 +10,7 @@ enum ASURuntime {
 
         let memoryCapacity = 96 * 1024 * 1024
         let diskCapacity = 512 * 1024 * 1024
-        URLCache.shared = URLCache(memoryCapacity: memoryCapacity, diskCapacity: diskCapacity, diskPath: "com.autosaleumar.image-cache")
+        URLCache.shared = URLCache(memoryCapacity: memoryCapacity, diskCapacity: diskCapacity, diskPath: "com.autosaleumar.showroom.image-cache")
     }
 }
 

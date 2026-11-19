@@ -2,7 +2,7 @@ import Foundation
 import Security
 
 enum ASUAdminKeychain {
-    private static let service = "com.autosaleumar.app.control-system"
+    private static let service = "com.autosaleumar.showroom.control-system"
     private static let account = "staff-session"
 
     enum KeychainError: Error {

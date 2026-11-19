@@ -27,7 +27,7 @@ targets:
         buildPhase: resources
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.autosaleumar.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.autosaleumar.showroom
         PRODUCT_NAME: Auto Sale Umar
         TARGETED_DEVICE_FAMILY: "1"
         SUPPORTS_MACCATALYST: NO

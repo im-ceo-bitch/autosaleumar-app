@@ -3,11 +3,11 @@ import UserNotifications
 import BackgroundTasks
 
 extension Notification.Name {
-    static let asuNotificationRoute = Notification.Name("com.autosaleumar.app.notificationRoute")
+    static let asuNotificationRoute = Notification.Name("com.autosaleumar.showroom.notificationRoute")
 }
 
 final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDelegate {
-    private let clientStatusRefreshIdentifier = "com.autosaleumar.app.client-status-refresh"
+    private let clientStatusRefreshIdentifier = "com.autosaleumar.showroom.client-status-refresh"
 
     func application(
         _ application: UIApplication,
